@@ -1,0 +1,23 @@
+{
+  "name": "cse341_project1",
+  "version": "1.0.0",
+  "description": "cse341 first project.",
+  "homepage": "https://github.com/SpencerQuiner/cse341_project1#readme",
+  "bugs": {
+    "url": "https://github.com/SpencerQuiner/cse341_project1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpencerQuiner/cse341_project1.git"
+  },
+  "license": "ISC",
+  "author": "Spencer Quiner",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
