@@ -1,0 +1,9 @@
+### Get main page
+GET https://cse341-project1-nld0.onrender.com
+
+### Get all contacts
+GET https://cse341-project1-nld0.onrender.com/contacts
+
+### Get single contact
+GET https://cse341-project1-nld0.onrender.com/contacts/69ab257b1dfc051d8f4a40da
+
