@@ -20,15 +20,15 @@ Content-Type: application/json
 }
 
 ### Update contact
-PUT https://cse341-project1-nld0.onrender.com/contacts/69ab257b1dfc051d8f4a40da
+PUT https://cse341-project1-nld0.onrender.com/contacts/69b3ff50e7405f20b918f9a1
 Content-Type: application/json
 
 {
-    "firstName": "Famara",
+    "firstName": "Colleen",
     "lastName": "Quiner",
-    "email": "famara1@exampleemail.com",
+    "email": "momq@fakeemail.com",
     "favoriteColor": "blue",
-    "birthDate": "2013-11-05"
+    "birthDate": "2041-09-17"
 }
 
 ### Delete contact

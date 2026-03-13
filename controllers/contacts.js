@@ -25,7 +25,7 @@ const createContact = async(req, res) => {
         lastName: req.body.lastName,
         email: req.body.email,
         favoriteColor: req.body.favoriteColor,
-        birthday: req.body.birthDate
+        birthDate: req.body.birthDate
     };
     const response = await mongodb.getDatabase().collection('contacts').insertOne(contact);
     if (response.acknowledged) {
@@ -43,7 +43,7 @@ const updateContact = async(req, res) => {
         lastName: req.body.lastName,
         email: req.body.email,
         favoriteColor: req.body.favoriteColor,
-        birthday: req.body.birthDate
+        birthdate: req.body.birthDate
     };
     const response = await mongodb.getDatabase().collection('contacts').replaceOne({_id: contactId}, contact);
     if (response.modifiedCount > 0) {
