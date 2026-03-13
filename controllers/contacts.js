@@ -15,7 +15,7 @@ const getSingle = async (req, res) => {
     const contactId = new ObjectId(req.params.id)
     const result = await mongodb.getDatabase().collection('contacts').findOne({_id: contactId});
         res.setHeader('Content-Type', 'application/json');
-        res.status(200).json(contacts[0])  
+        res.status(200).json(result)  
 };
 
 const createContact = async(req, res) => {
